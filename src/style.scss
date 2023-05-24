@@ -1,0 +1,205 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ *
+**/
+
+.wp-swiper-slider {
+  height: auto !important;
+}
+
+.wp-swiper-slider .sim-product {
+  width: 100%;
+}
+
+.wp-swiper-slider .sim-product .blog-content h2{
+  text-align: start;
+}
+
+.rating-main {
+  display: flex;
+  align-items: center;
+}
+
+.wp-swiper-slider .rate {
+    float: left;
+}
+
+.wp-swiper-slider .rate > label {
+  float:left;
+  width:1.1em;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.wp-swiper-slider .rate > label span {
+  font-size: 14.5px;
+  margin-right: 5px;
+  color:#ccc;
+	position: relative;
+}
+
+.wp-swiper-slider .rate > label span:before {
+  content: '\f005';
+	font-family: 'FontAwesome';
+}
+
+.wp-swiper-slider .rate > label.full span:before {
+  color: #f68c50;
+}
+
+.wp-swiper-slider .rate > label.half span:after {
+	content: "\f089";
+	font-family: 'FontAwesome';
+	color: #f68c50;	
+	position: absolute;
+	left: 0px;
+  top: 0px;
+}
+
+.wp-swiper-slider .rate_no {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.wp-swiper-slider .swiper-button-next, 
+.wp-swiper-slider .swiper-button-prev {
+    z-index: 1;
+    width: 36px;
+    height: 52px;
+    background-color: rgba(0, 0, 0, 0.61);
+    background-size: 10px auto;
+    background-position: center center;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 255, 0);
+    transition: border-color .3s;
+    font-size: 20px;
+}
+
+.wp-swiper-slider .swiper-button-next:after, 
+.wp-swiper-slider .swiper-rtl .swiper-button-prev:after, 
+.wp-swiper-slider .swiper-button-prev:after, 
+.wp-swiper-slider .swiper-rtl .swiper-button-next:after {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.wp-swiper-slider {
+  width: 100%;
+  height: 100%;
+}
+
+.wp-swiper-slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp-swiper-slider  .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wp-swiper-slider .card-sec {
+  background-repeat: no-repeat;
+  border: 1px solid #33333338;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.wp-swiper-slider .img {
+  background-color: #c7c7c7;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  padding-bottom: 60%;
+}
+
+.wp-swiper-slider .img:before {
+  content: "\f1c5";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "FontAwesome";
+  font-weight: 900;
+  font-size: 40px;
+  color: #afafaf;
+  z-index: 9;
+}
+
+.wp-swiper-slider img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.wp-swiper-slider .blog-content {
+  padding: 15px;
+}
+
+.wp-swiper-slider .blog-content h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin: 7px 0;
+}
+
+.wp-swiper-slider .plr-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.wp-swiper-slider .blog-content .btn {
+  font-size: 14px;
+  color: #fff;
+  background-color: #db0004;
+  border: none;
+  width: max-content;
+  display: block;
+}
+
+.wp-swiper-slider .blog-content .btn:hover {
+  color: #fff !important;
+  background-color: #000;
+}
+
+.wp-swiper-slider .blog-img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 10;
+}
+
+.wp-swiper-slider .heading-products {
+  font-size: 26px;
+  position: relative;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.wp-swiper-slider .heading-products span {
+  margin-left: 25px;
+}
+
+.wp-swiper-slider .heading-products span:before {
+  content: "";
+  position: absolute;
+  background: #fe0000;
+  height: 10px;
+  width: 10px;
+  left: 0px;
+  top: 16px;
+}

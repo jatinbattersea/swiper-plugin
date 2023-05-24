@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/swiper-slider",
+	"version": "0.1.0",
+	"title": "Swiper Slider",
+	"category": "widgets",
+	"icon": "slides",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "swiper-slider",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"slides": {
+			"type": "array",
+			"default": [
+				{
+					"heading": "",
+					"imgLink": "",
+					"link": "",
+					"rating": ""
+				}
+			]
+		}
+    }
+}
